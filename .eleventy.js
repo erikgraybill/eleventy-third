@@ -121,6 +121,8 @@ module.exports = function(eleventyConfig) {
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
 
+    pathPrefix: "eleventy-third",
+
     // These are all optional, defaults are shown:
     dir: {
       input: ".",
