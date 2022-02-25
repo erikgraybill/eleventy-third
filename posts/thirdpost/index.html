@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Introduction to Open Web Components</title>
+    <meta name="description" content="This is a post explaining how to install the required materials to start using Open Web Components.">
+    <link rel="icon" href="/img/anchor.svg"/>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Captain&#39;s Log">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Captain&#39;s Log">
+  </head>
+  <body>
+    <header>
+      <h1 class="title"><a href="/"><img id="header-compass" alt="" src="/img/compass-white.svg"/>Captain&#39;s Log</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post content">
+      <article class="post paper">
+<h1>An Introduction to Open Web Components</h1>
+
+<p>JavaScript is used widely across the internet, as it is natively run in your web browser. As a web developer, familiarizing yourself with JavaScript is vital to success. Open-wc streamlines aspects of development and utilizes Node.js and npm. From the open-wc Git Repository's README: &quot;Open Web Components provides a set of defaults, recommendations and tools to help facilitate your web component project.&quot;</p>
+<p>What do Node.js and npm have to do with JavaScript? Node.js is a cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. The Node Package Manager, or npm, is a software registry of over 800,000 packages installed alongside Node.js according to w3schools. Node.js is one of the most popular tools for open-source developers to work with JavaScript. In this article, I will walk through the steps required to start using open-wc on a Windows machine.</p>
+<h2 id="getting-started">Getting Started <a class="direct-link" href="#getting-started">#</a></h2>
+<p>First things first, you will need an IDE to work with JavaScript. You may use any IDE you are comfortable with if it is compatible with JavaScript, but I will be using Visual Studio Code which can be downloaded <a href="https://code.visualstudio.com/">here</a>.</p>
+<h2 id="installing-node.js-and-npm">Installing Node.js and npm <a class="direct-link" href="#installing-node.js-and-npm">#</a></h2>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qkk0ponf32aod6a3gqwl.png" alt="Download page"><br>
+To install Node.js, go <a href="https://nodejs.org/en/download/">here</a>. Get the most current LTS version for your operating system for the best stability, or the latest current version for new features at the cost of some stability. Since npm is included with the Node.js install, you should now have both; open your terminal and enter <code>node -v</code> to check if Node.js was installed, and <code>npm -v</code> to check if npm was installed. You're all set to continue if you see version numbers after running those commands.</p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ivrqvddmt4b436pqlh5u.png" alt="Check if Node.js and npm are installed"></p>
+<h2 id="starting-a-new-open-wc-project">Starting a new open-wc project <a class="direct-link" href="#starting-a-new-open-wc-project">#</a></h2>
+<p>To begin with open-wc, make a directory to put your project in. Change your terminal directory to this new location, and enter <code>npm init @open-wc</code>. If everything has been installed correctly, this should run and you can now begin working on your open-wc project. I initialized my project with these options:</p>
+<ul>
+<li>New project scaffold</li>
+<li>Web component</li>
+<li>Linting, Testing, and Demoing enabled</li>
+<li>No TypeScript</li>
+<li>Install using npm</li>
+</ul>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/045vzmnqn7t8awe2qwo5.png" alt="open-wc initialization"></p>
+<p>The hello-world element is located in the <code>/src/</code> folder to be edited further. And with that, you have just created your first web component!</p>
+
+</article>
+<div class="prev-next"><a href="/posts/firstpost/"><img alt="Left arrow" class="arrow left" src="/img/arrow.svg"/>This is my first blog site!</a><a href="/posts/fourthpost/">Wikipedia&#39;s API, and Using &#39;wikipedia-query&#39; to Fetch Articles<img alt="Right arrow" class="arrow right" src="/img/arrow.svg"/></a>
+</div>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /posts/thirdpost/ -->
+  </body>
+</html>

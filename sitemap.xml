@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://example.com/posts/fourthpost/</loc>
+    <lastmod>2022-02-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/thirdpost/</loc>
+    <lastmod>2022-02-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/firstpost/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/secondpost/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/page-list/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/blog/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/scratch/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/wikipedia/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/template/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/Open%20Web%20Components/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/JavaScript/</loc>
+    <lastmod>2022-02-25</lastmod>
+  </url>
+</urlset>
