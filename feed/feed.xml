@@ -3,7 +3,7 @@
 	<title>Captain&#39;s Log</title>
 	<subtitle>Yoho, mateys! I&#39;ve been sailing the seven seas, and this is my story!</subtitle>
 	
-	<link href="https://example.com/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/eleventy-third/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
 	<updated>2022-02-25T00:00:00Z</updated>
 	<id>https://example.com/</id>
@@ -14,36 +14,36 @@
 	
 	<entry>
 		<title>This is my second blog</title>
-		<link href="https://example.com/posts/secondpost/"/>
+		<link href="https://example.com/eleventy-third/posts/secondpost/"/>
 		<updated>2022-02-25T00:00:00Z</updated>
-		<id>https://example.com/posts/secondpost/</id>
+		<id>https://example.com/eleventy-third/posts/secondpost/</id>
 		<content type="html">&lt;p&gt;Visit my second blog &lt;a href=&quot;https://erikgraybill.github.io/eleventy-template-blog/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>This is my first blog site!</title>
-		<link href="https://example.com/posts/firstpost/"/>
+		<link href="https://example.com/eleventy-third/posts/firstpost/"/>
 		<updated>2022-02-25T00:00:00Z</updated>
-		<id>https://example.com/posts/firstpost/</id>
+		<id>https://example.com/eleventy-third/posts/firstpost/</id>
 		<content type="html">&lt;p&gt;Visit my first blog &lt;a href=&quot;https://erikgraybill.github.io/eleventy-sample/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>An Introduction to Open Web Components</title>
-		<link href="https://example.com/posts/thirdpost/"/>
+		<link href="https://example.com/eleventy-third/posts/thirdpost/"/>
 		<updated>2022-02-24T00:00:00Z</updated>
-		<id>https://example.com/posts/thirdpost/</id>
+		<id>https://example.com/eleventy-third/posts/thirdpost/</id>
 		<content type="html">&lt;p&gt;JavaScript is used widely across the internet, as it is natively run in your web browser. As a web developer, familiarizing yourself with JavaScript is vital to success. Open-wc streamlines aspects of development and utilizes Node.js and npm. From the open-wc Git Repository&#39;s README: &amp;quot;Open Web Components provides a set of defaults, recommendations and tools to help facilitate your web component project.&amp;quot;&lt;/p&gt;
 &lt;p&gt;What do Node.js and npm have to do with JavaScript? Node.js is a cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. The Node Package Manager, or npm, is a software registry of over 800,000 packages installed alongside Node.js according to w3schools. Node.js is one of the most popular tools for open-source developers to work with JavaScript. In this article, I will walk through the steps required to start using open-wc on a Windows machine.&lt;/p&gt;
-&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/thirdpost/#getting-started&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/eleventy-third/posts/thirdpost/#getting-started&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;First things first, you will need an IDE to work with JavaScript. You may use any IDE you are comfortable with if it is compatible with JavaScript, but I will be using Visual Studio Code which can be downloaded &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;installing-node.js-and-npm&quot;&gt;Installing Node.js and npm &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/thirdpost/#installing-node.js-and-npm&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;installing-node.js-and-npm&quot;&gt;Installing Node.js and npm &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/eleventy-third/posts/thirdpost/#installing-node.js-and-npm&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qkk0ponf32aod6a3gqwl.png&quot; alt=&quot;Download page&quot; /&gt;&lt;br /&gt;
 To install Node.js, go &lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;here&lt;/a&gt;. Get the most current LTS version for your operating system for the best stability, or the latest current version for new features at the cost of some stability. Since npm is included with the Node.js install, you should now have both; open your terminal and enter &lt;code&gt;node -v&lt;/code&gt; to check if Node.js was installed, and &lt;code&gt;npm -v&lt;/code&gt; to check if npm was installed. You&#39;re all set to continue if you see version numbers after running those commands.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ivrqvddmt4b436pqlh5u.png&quot; alt=&quot;Check if Node.js and npm are installed&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;starting-a-new-open-wc-project&quot;&gt;Starting a new open-wc project &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/thirdpost/#starting-a-new-open-wc-project&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;starting-a-new-open-wc-project&quot;&gt;Starting a new open-wc project &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/eleventy-third/posts/thirdpost/#starting-a-new-open-wc-project&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;To begin with open-wc, make a directory to put your project in. Change your terminal directory to this new location, and enter &lt;code&gt;npm init @open-wc&lt;/code&gt;. If everything has been installed correctly, this should run and you can now begin working on your open-wc project. I initialized my project with these options:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;New project scaffold&lt;/li&gt;
@@ -59,9 +59,9 @@ To install Node.js, go &lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt
 	
 	<entry>
 		<title>Wikipedia&#39;s API, and Using &#39;wikipedia-query&#39; to Fetch Articles</title>
-		<link href="https://example.com/posts/fourthpost/"/>
+		<link href="https://example.com/eleventy-third/posts/fourthpost/"/>
 		<updated>2022-02-24T00:00:00Z</updated>
-		<id>https://example.com/posts/fourthpost/</id>
+		<id>https://example.com/eleventy-third/posts/fourthpost/</id>
 		<content type="html">&lt;p&gt;Let&#39;s say you want to display information about a company, city, or your favorite food on your website. Of course you could just write it out yourself, but what if something changes or gets updated with better information? You can use Wikipedia&#39;s API to find an article from their website using regular search terms. In this blog, we will find out how to do this, but first we will talk about the &lt;code&gt;fetch()&lt;/code&gt; JavaScript function. I will use my project &lt;a href=&quot;https://github.com/erikgraybill/ip-project&quot;&gt;here&lt;/a&gt; as an example.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fetch()&lt;/code&gt; is an asynchronous function, meaning it can execute as other code is running at the same time; it will return whatever data is gathered whenever it can and the rest of the code continues on. It is used for HTTP requests and responses. You can learn more about the function &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch&quot;&gt;here&lt;/a&gt;. In my example, the fetch function is used to return a JSON response with information about the user&#39;s location from &lt;a href=&quot;https://freegeoip.app/json/&quot;&gt;https://freegeoip.app/json/&lt;/a&gt;. Once the function receives the information, it returns it and the code within &lt;code&gt;.then&lt;/code&gt; executes.&lt;br /&gt;
 &lt;em&gt;Example JSON retrieved from fetch()&lt;/em&gt;&lt;/p&gt;
@@ -81,7 +81,7 @@ To install Node.js, go &lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;From here, my code takes the information from the JSON response and stores it for later use in the Wikipedia query, as seen in this screenshot. &lt;em&gt;I specifically use city and state for the query.&lt;/em&gt;&lt;br /&gt;
 &lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dn4bw5lff4kl6rxnhxm9.png&quot; alt=&quot;Image description&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;mediawiki-api&quot;&gt;MediaWiki API &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/fourthpost/#mediawiki-api&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;mediawiki-api&quot;&gt;MediaWiki API &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/eleventy-third/posts/fourthpost/#mediawiki-api&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We will begin with looking at the API itself. This API can perform many different actions and be utilized in very specified ways dependent on the use case, but we will focus on the action, origin, and format parameters here. Full documentation of the API can be found &lt;a href=&quot;https://en.wikipedia.org/w/api.php&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;origin&lt;/strong&gt; sets the originating domain of the information being queried. In my instance, this is set to &#39;*&#39; to signify a non-authenticated request which still works, but some user-specific functions are disabled.&lt;/li&gt;
@@ -89,7 +89,7 @@ To install Node.js, go &lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt
 &lt;li&gt;&lt;strong&gt;format&lt;/strong&gt; is self explanatory, and specifies what format the information will be returned as. In my case, it is set to return JSON.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;When performing &lt;code&gt;action=query&lt;/code&gt;, some more parameters can be specified. In my case, I use &lt;strong&gt;prop&lt;/strong&gt; and set it to &#39;extracts&#39; in order to get the plain text of the given page being fetched, as well as &lt;strong&gt;titles&lt;/strong&gt; which specifies what the title of the page to be returned. This is set to be the term being queried in &lt;code&gt;wikipedia-query&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;wikipedia-query&quot;&gt;wikipedia-query &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/fourthpost/#wikipedia-query&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;wikipedia-query&quot;&gt;wikipedia-query &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/eleventy-third/posts/fourthpost/#wikipedia-query&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/na9lsrk4gy8ff6hj8tbz.png&quot; alt=&quot;Image description&quot; /&gt; Now it&#39;s time to implement the MediaWiki API. The code pictured above is the block within the &lt;code&gt;wikipedia-query&lt;/code&gt; tag that uses the MediaWiki API. It uses &lt;code&gt;fetch()&lt;/code&gt; to send a query via the API, and the query has the titles parameter set to a variable. I use three &lt;code&gt;wikipedia-query&lt;/code&gt; tags to display the city and state, just the city, and just the state of the user using the data that was stored earlier from &lt;a href=&quot;https://freegeoip.app/json/&quot;&gt;https://freegeoip.app/json/&lt;/a&gt;. In the picture below, you can see how the search term is constructed in my code.&lt;br /&gt;
 &lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yrfflah5q1fhpxksvhbr.png&quot; alt=&quot;Image description&quot; /&gt; So, in this example, three queries are sent to the MediaWiki API: one with title set to State College, Pennsylvania, one set to State College, and one set to Pennsylvania. The following picture shows a portion of what is returned from the MediaWiki API, what isn&#39;t shown is just the rest of the article.&lt;br /&gt;
 &lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/59j14w9imh9jtjs780x4.png&quot; alt=&quot;Image description&quot; /&gt;&lt;br /&gt;
